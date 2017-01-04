@@ -8,10 +8,10 @@ defmodule Sched.TokenController do
   def authorize(conn, _params) do
 
     ExTwitter.configure([
-      consumer_key: "ZSx6f74ec908qp3S7dJ18iPfL",
-      consumer_secret: "hViG3elQampdPzT3G0Q3HOSpsOgbSFfVRwTE7LvH35OEUw0vlL",
-      access_token: "868385953-akQdSyBLpmGKNNNdLCNHAN5uWOK68JaEwmWfhBni",
-      access_token_secret: "uoIdVqz0JgLw2UTbmzhOpSe7v4WfQo88Uui9S9wNYrZh6"
+      consumer_key: "",
+      consumer_secret: "",
+      access_token: "",
+      access_token_secret: ""
     ])
 
     token = ExTwitter.request_token("https://simplescheduler.herokuapp.com/verify_user")
