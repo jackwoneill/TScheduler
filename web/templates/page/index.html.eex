@@ -1,0 +1,14 @@
+<div class="jumbotron">
+  <h2>You should probably sign in</h2>
+  <p class="lead">No, really, sign in already</p>
+  <h3><%= link "Sign In", to: login_path(@conn, :login), class: "button" %></h3>
+
+  <h3><%= link "Register", to: register_path(@conn, :register), class: "button" %></h3>
+
+</div>
+
+<div class="row marketing">
+  <div class="col-lg-6">
+    
+  </div>
+</div>

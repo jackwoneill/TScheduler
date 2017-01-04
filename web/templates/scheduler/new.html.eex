@@ -1,0 +1,6 @@
+<h2>Schedule New Tweet</h2>
+
+<%= render "form.html", changeset: @changeset,
+                        action: scheduler_path(@conn, :create) %>
+
+<%= link "Back", to: scheduler_path(@conn, :index) %>

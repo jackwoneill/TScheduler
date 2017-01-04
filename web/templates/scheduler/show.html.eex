@@ -1,0 +1,13 @@
+<h2>Show scheduler</h2>
+
+<ul>
+
+  <li>
+    <strong>Text:</strong>
+    <%= @scheduler.text %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: scheduler_path(@conn, :edit, @scheduler) %>
+<%= link "Back", to: scheduler_path(@conn, :index) %>
